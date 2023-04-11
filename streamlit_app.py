@@ -1,4 +1,4 @@
-import cv2
+from .cv2 import *
 import streamlit as st
 import pandas
 

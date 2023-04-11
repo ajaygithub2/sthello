@@ -8,7 +8,9 @@ st.write("Hello Motherfuckers")
 pygame.init()
 pygame.camera.init()
 
-cam = pygame.camera.Camera("/path/to/camera",(640,480))
+camlist = pygame.camera.list_cameras()
+    if camlist:
+        cam = pygame.camera.Camera(camlist[0],(640,480))
 cam.start()
 
 image = cam.get_image()

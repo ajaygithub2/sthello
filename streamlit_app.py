@@ -1,4 +1,4 @@
 import streamlit as st
-import cv2
+import pandas
 
 st.write("Hello Motherfuckers")

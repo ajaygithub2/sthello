@@ -1,3 +1,1 @@
-opencv-python
-pygame
-pandas
+opencv-python-headless
